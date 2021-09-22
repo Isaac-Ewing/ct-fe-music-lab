@@ -11,7 +11,6 @@ const ReleasesContainer = () => {
   useEffect(() => {
     const loadRelease = async () => {
       const releases = await fetchReleases(id);
-      console.log(releases, 'releases after fetch HERE');
       setReleases(releases);
     };
     loadRelease();
