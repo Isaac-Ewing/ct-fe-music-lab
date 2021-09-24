@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`artist container test the actaul test 1`] = `
+<div>
+  <form>
+    <label>
+      Find an Artist:
+      <input
+        name="searchTerm"
+        type="text"
+        value="killers"
+      />
+    </label>
+    <button
+      aria-label="search-button"
+    >
+      Submit
+    </button>
+  </form>
+  <ul
+    aria-label="artists"
+    name="artists"
+  >
+    <li>
+      <a
+        href="/Killers/0dc08b92-4639-4370-94cf-1cd31b0811f6"
+      >
+        Killers
+      </a>
+      <h3>
+        100
+      </h3>
+    </li>
+    <li>
+      <a
+        href="/The Killers/95e1ead9-4d31-4808-a7ac-32c3614c116b"
+      >
+        The Killers
+      </a>
+      <h3>
+        97
+      </h3>
+    </li>
+    <li>
+      <a
+        href="/Killers/66101a13-70cc-40a7-8371-abcb78012aa3"
+      >
+        Killers
+      </a>
+      <h3>
+        96
+      </h3>
+    </li>
+    <li>
+      <a
+        href="/KILLERS/386b27fb-fc2b-400c-a296-079b13e21061"
+      >
+        KILLERS
+      </a>
+      <h3>
+        93
+      </h3>
+    </li>
+    <li>
+      <a
+        href="/Killers/1371a633-7446-44c1-8ab9-4e643d7b1832"
+      >
+        Killers
+      </a>
+      <h3>
+        92
+      </h3>
+    </li>
+    <li>
+      <a
+        href="/The Killers/c2058349-c474-411b-b857-2bbfc10de344"
+      >
+        The Killers
+      </a>
+      <h3>
+        85
+      </h3>
+    </li>
+    <li>
+      <a
+        href="/Studio Killers/cc7d0735-ad9b-4bf9-bfb6-e7bd90945c45"
+      >
+        Studio Killers
+      </a>
+      <h3>
+        84
+      </h3>
+    </li>
+    <li>
+      <a
+        href="/Buffalo Killers/7d07fa7b-5019-4c13-861e-66424c100c37"
+      >
+        Buffalo Killers
+      </a>
+      <h3>
+        82
+      </h3>
+    </li>
+    <li>
+      <a
+        href="/Cowboy Killers/a30cd414-a9a6-4aab-a302-a3084cc48ff2"
+      >
+        Cowboy Killers
+      </a>
+      <h3>
+        82
+      </h3>
+    </li>
+    <li>
+      <a
+        href="/Gasteropodes Killers/df84a4ca-8560-46c9-b01a-283407cf00e0"
+      >
+        Gasteropodes Killers
+      </a>
+      <h3>
+        81
+      </h3>
+    </li>
+  </ul>
+  <button
+    disabled=""
+  >
+    &lt;
+  </button>
+  <button>
+    &gt;
+  </button>
+</div>
+`;

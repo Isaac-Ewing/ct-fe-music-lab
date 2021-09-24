@@ -7,7 +7,7 @@ const Search = ({ searchTerm, onSubmit, onChange }) => (
         Find an Artist:
       <input type="text" name ="searchTerm" onChange={onChange} value={searchTerm} />
     </label>
-    <button>Submit</button>
+    <button aria-label="search-button">Submit</button>
   </form>
 );
 
