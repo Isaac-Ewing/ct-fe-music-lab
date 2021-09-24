@@ -10,7 +10,6 @@ const ArtistList = ({ artists, loading }) => {
     <ul aria-label="artists" name="artists"> 
       {artists.map((artist) => (
         <li key={artist.id}>
-          0
           <Artist id={artist.id} name={artist.name} score={artist.score} />
         </li>
       )) }

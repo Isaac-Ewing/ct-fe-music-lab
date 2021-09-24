@@ -5,11 +5,12 @@ import { fetchCoverArt } from '../services/fetchArtists';
 
 
 
-const Release = ({ id, title }) => {
+const Release = ({ id, title, artist }) => {
   const [coverArt, setCoverArt] = useState();
 
 
   useEffect(() => {
+    console.log(artist);
     const loadCoverArt = async () => {
       const coverArt = await fetchCoverArt(id);
       console.log(coverArt, 'coverArt after fetch HERE');
@@ -22,7 +23,7 @@ const Release = ({ id, title }) => {
 
 
   return (<>
-    <Link to={`/${id}`}>{title}</Link>
+    <Link to={`/recordings/${artist}/${id}`}>{title}</Link>
     <img src={coverArt} />
   </>
   );
@@ -31,6 +32,7 @@ const Release = ({ id, title }) => {
 Release.propTypes = {
   id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  artist: PropTypes.string.isRequired,
 };
 
 export default Release;
